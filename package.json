@@ -1,0 +1,32 @@
+# Fulfld Brand Scout
+
+SmartScout Intelligence Dashboard for Fulfld brand researchers.
+
+## Deploy to Vercel (Free)
+
+1. Go to https://vercel.com and sign up free
+2. Click "Add New Project"
+3. Upload this folder OR push to GitHub and connect
+4. Vercel auto-detects React — click Deploy
+5. Share the URL with your team!
+
+## What it does
+
+- Upload any SmartScout CSV export (Brands, Sellers, Products, Search Terms, AdSpy, Subcategories)
+- Auto-detects file type and maps columns
+- Calculates Fulfld Opportunity Score for each brand
+- Filter by Amazon %, revenue, seller count, growth
+- Click "Analyze" on any brand for deep competitor + keyword intel
+- Export shortlist to CSV for ZoomInfo lookup
+
+## Fulfld Opportunity Score Logic
+
+- Low Amazon % (Fulfld can add value) → up to 25 pts
+- Revenue sweet spot $50K–$5M/month → up to 25 pts
+- Multiple sellers (not exclusive) → up to 20 pts
+- Positive 1M + 12M growth → up to 20 pts
+- High SmartScout brand score → up to 10 pts
+
+Score ≥ 70 = 🟢 High Opportunity
+Score 45–69 = 🟡 Medium
+Score < 45 = 🔴 Low
